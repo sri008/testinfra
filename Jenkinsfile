@@ -1,4 +1,4 @@
-@Library('pipeline-library-demo')
+@Library('shareLibraries')_
 stage('Demo'){
     cronJob
 }
