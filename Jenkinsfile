@@ -1,4 +1,4 @@
-@Library('shareLibraries')_
+@Library('shareLibraries@main')_
 stage('Demo'){
     cronJob
 }
