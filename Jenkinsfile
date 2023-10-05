@@ -2,7 +2,7 @@
 stage('Demo'){
     steps{
       script{
-        cronjob()
+        cronJob()
       }
     }
 }
