@@ -6,4 +6,4 @@
 //       }
 //     }
 // }
-cronJob{}
+cronJob{GIT_URL: env.GIT_URL, BRANCH_NAME: env.BRANCH_NAME}
