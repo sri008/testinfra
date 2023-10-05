@@ -6,7 +6,8 @@ pipeline {
     stages {
         stage('github url') {
             steps {
-                echo "${env.GIT_URL}"
+                echo "THE Branch is use ==> ${env.BRANCH_NAME}"
+                echo "the gitlhub repo url use ==> ${env.GIT_URL}"
             }
         }
     }
