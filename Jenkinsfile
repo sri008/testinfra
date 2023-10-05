@@ -1,5 +1,8 @@
 @Library('shareLibraries@main')_
-// stage('Demo'){
-//     cronJob
-// }
-cronjob
+stage('Demo'){
+    steps{
+      script{
+        cronjob()
+      }
+    }
+}
