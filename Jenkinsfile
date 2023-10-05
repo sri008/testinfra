@@ -1,4 +1,4 @@
 @shareLibraries
-pipeline {
+stage('Demo'){
     cronJob
 }
