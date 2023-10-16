@@ -1,3 +1,5 @@
 @Library('shareLibraries@main')_
 
-cronJob{}
+cronJob{
+  buildDocker = true
+}
