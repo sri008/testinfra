@@ -1,3 +1,3 @@
 @Library('shareLibraries@main')_
 
-cronJob{infra = 'true'}
+cronJob{infra = 'false'}
