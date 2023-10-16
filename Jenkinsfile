@@ -1,12 +1,7 @@
-// // @Library('shareLibraries@main')_
-// // // stage('Demo'){
-// // //     steps{
-// // //       script{
-// // //         cronJob
-// // //       }
-// // //     }
-// // // }
-// // cronJob{}
+// @Library('shareLibraries@main')_
+
+// cronJob{ }
+
 // def config=[:]
 // config.account=["ConfigSM","heloOption2"]
 // pipeline {
